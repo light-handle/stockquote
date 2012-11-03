@@ -1,0 +1,126 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: 1.5.0_19 (Sun Microsystems Inc.)
+Built-By: igor.vaynberg
+Build-Jdk: 1.5.0_19
+Specification-Title: Wicket Extensions
+Specification-Version: 1.4.8
+Specification-Vendor: Apache Software Foundation
+Implementation-Title: Wicket Extensions
+Implementation-Version: 1.4.8
+Implementation-Vendor-Id: org.apache.wicket
+Implementation-Vendor: Apache Software Foundation
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Import-Package: org.apache.wicket;version="1.4",org.apache.wicket.ajax
+ ;version="1.4",org.apache.wicket.ajax.calldecorator;version="1.4",org
+ .apache.wicket.ajax.markup.html;version="1.4",org.apache.wicket.ajax.
+ markup.html.form;version="1.4",org.apache.wicket.ajax.markup.html.nav
+ igation.paging;version="1.4",org.apache.wicket.behavior;version="1.4"
+ ,org.apache.wicket.extensions;version="1.4.8",org.apache.wicket.exten
+ sions.ajax.markup.html;version="1.4.8",org.apache.wicket.extensions.a
+ jax.markup.html.autocomplete;version="1.4.8",org.apache.wicket.extens
+ ions.ajax.markup.html.form.upload;version="1.4.8",org.apache.wicket.e
+ xtensions.ajax.markup.html.modal;version="1.4.8",org.apache.wicket.ex
+ tensions.ajax.markup.html.modal.res;version="1.4.8",org.apache.wicket
+ .extensions.ajax.markup.html.repeater.data.sort;version="1.4.8",org.a
+ pache.wicket.extensions.ajax.markup.html.repeater.data.table;version=
+ "1.4.8",org.apache.wicket.extensions.ajax.markup.html.tabs;version="1
+ .4.8",org.apache.wicket.extensions.breadcrumb;version="1.4.8",org.apa
+ che.wicket.extensions.breadcrumb.panel;version="1.4.8",org.apache.wic
+ ket.extensions.captcha.kittens;version="1.4.8",org.apache.wicket.exte
+ nsions.captcha.kittens.images;version="1.4.8",org.apache.wicket.exten
+ sions.markup.html.basic;version="1.4.8",org.apache.wicket.extensions.
+ markup.html.captcha;version="1.4.8",org.apache.wicket.extensions.mark
+ up.html.form;version="1.4.8",org.apache.wicket.extensions.markup.html
+ .form.palette;version="1.4.8",org.apache.wicket.extensions.markup.htm
+ l.form.palette.component;version="1.4.8",org.apache.wicket.extensions
+ .markup.html.form.select;version="1.4.8",org.apache.wicket.extensions
+ .markup.html.image.resource;version="1.4.8",org.apache.wicket.extensi
+ ons.markup.html.repeater.data.grid;version="1.4.8",org.apache.wicket.
+ extensions.markup.html.repeater.data.sort;version="1.4.8",org.apache.
+ wicket.extensions.markup.html.repeater.data.table;version="1.4.8",org
+ .apache.wicket.extensions.markup.html.repeater.data.table.filter;vers
+ ion="1.4.8",org.apache.wicket.extensions.markup.html.repeater.util;ve
+ rsion="1.4.8",org.apache.wicket.extensions.markup.html.tabs;version="
+ 1.4.8",org.apache.wicket.extensions.markup.html.tree;version="1.4.8",
+ org.apache.wicket.extensions.markup.html.tree.res;version="1.4.8",org
+ .apache.wicket.extensions.markup.html.tree.table;version="1.4.8",org.
+ apache.wicket.extensions.model;version="1.4.8",org.apache.wicket.exte
+ nsions.rating;version="1.4.8",org.apache.wicket.extensions.util.encod
+ ing;version="1.4.8",org.apache.wicket.extensions.validation.validator
+ ;version="1.4.8",org.apache.wicket.extensions.wizard;version="1.4.8",
+ org.apache.wicket.extensions.wizard.dynamic;version="1.4.8",org.apach
+ e.wicket.feedback;version="1.4",org.apache.wicket.markup;version="1.4
+ ",org.apache.wicket.markup.html;version="1.4",org.apache.wicket.marku
+ p.html.basic;version="1.4",org.apache.wicket.markup.html.border;versi
+ on="1.4",org.apache.wicket.markup.html.form;version="1.4",org.apache.
+ wicket.markup.html.form.upload;version="1.4",org.apache.wicket.markup
+ .html.form.validation;version="1.4",org.apache.wicket.markup.html.ima
+ ge;version="1.4",org.apache.wicket.markup.html.image.resource;version
+ ="1.4",org.apache.wicket.markup.html.link;version="1.4",org.apache.wi
+ cket.markup.html.list;version="1.4",org.apache.wicket.markup.html.nav
+ igation.paging;version="1.4",org.apache.wicket.markup.html.panel;vers
+ ion="1.4",org.apache.wicket.markup.html.resources;version="1.4",org.a
+ pache.wicket.markup.html.tree;version="1.4",org.apache.wicket.markup.
+ repeater;version="1.4",org.apache.wicket.markup.repeater.data;version
+ ="1.4",org.apache.wicket.markup.repeater.util;version="1.4",org.apach
+ e.wicket.model;version="1.4",org.apache.wicket.model.util;version="1.
+ 4",org.apache.wicket.protocol.http;version="1.4",org.apache.wicket.pr
+ otocol.http.servlet;version="1.4",org.apache.wicket.request;version="
+ 1.4",org.apache.wicket.response;version="1.4",org.apache.wicket.setti
+ ngs;version="1.4",org.apache.wicket.util.collections;version="1.4",or
+ g.apache.wicket.util.convert;version="1.4",org.apache.wicket.util.con
+ vert.converters;version="1.4",org.apache.wicket.util.lang;version="1.
+ 4",org.apache.wicket.util.resource;version="1.4",org.apache.wicket.ut
+ il.string;version="1.4",org.apache.wicket.util.tester;version="1.4",o
+ rg.apache.wicket.util.time;version="1.4",org.apache.wicket.util.uploa
+ d;version="1.4",org.apache.wicket.util.value;version="1.4",org.apache
+ .wicket.validation;version="1.4",org.apache.wicket.validation.validat
+ or;version="1.4",org.apache.wicket.version.undo;version="1.4"
+Bnd-LastModified: 1272300020414
+Export-Package: org.apache.wicket.extensions.rating;version="1.4.8",or
+ g.apache.wicket.extensions.ajax.markup.html.repeater.data.sort;versio
+ n="1.4.8",org.apache.wicket.extensions.ajax.markup.html.tabs;version=
+ "1.4.8",org.apache.wicket.extensions.captcha.kittens;version="1.4.8",
+ org.apache.wicket.extensions.markup.html.basic;version="1.4.8",org.ap
+ ache.wicket.extensions.wizard;version="1.4.8",org.apache.wicket.exten
+ sions.captcha.kittens.images;version="1.4.8",org.apache.wicket.extens
+ ions.ajax.markup.html.modal.res;version="1.4.8",org.apache.wicket.ext
+ ensions.markup.html.form;version="1.4.8",org.apache.wicket.extensions
+ .util.encoding;version="1.4.8",org.apache.wicket.extensions.markup.ht
+ ml.repeater.util;version="1.4.8",org.apache.wicket.extensions.wizard.
+ dynamic;version="1.4.8",org.apache.wicket.extensions.markup.html.repe
+ ater.data.table.filter;version="1.4.8",org.apache.wicket.extensions.a
+ jax.markup.html;version="1.4.8",org.apache.wicket.extensions.markup.h
+ tml.form.palette.component;version="1.4.8",org.apache.wicket.extensio
+ ns.markup.html.repeater.data.grid;version="1.4.8",org.apache.wicket.e
+ xtensions.markup.html.tree.res;version="1.4.8",org.apache.wicket.exte
+ nsions.model;version="1.4.8",org.apache.wicket.extensions.markup.html
+ .captcha;version="1.4.8",org.apache.wicket.extensions.markup.html.ima
+ ge.resource;version="1.4.8",org.apache.wicket.extensions.ajax.markup.
+ html.repeater.data.table;version="1.4.8",org.apache.wicket.extensions
+ .ajax.markup.html.autocomplete;version="1.4.8",org.apache.wicket.exte
+ nsions.markup.html.form.palette;version="1.4.8",org.apache.wicket.ext
+ ensions;version="1.4.8",org.apache.wicket.extensions.markup.html.tabs
+ ;version="1.4.8",org.apache.wicket.extensions.markup.html.tree.table;
+ version="1.4.8",org.apache.wicket.extensions.ajax.markup.html.form.up
+ load;version="1.4.8",org.apache.wicket.extensions.markup.html.form.se
+ lect;version="1.4.8",org.apache.wicket.extensions.breadcrumb;version=
+ "1.4.8",org.apache.wicket.extensions.breadcrumb.panel;version="1.4.8"
+ ,org.apache.wicket.extensions.markup.html.repeater.data.sort;version=
+ "1.4.8",org.apache.wicket.extensions.markup.html.tree;version="1.4.8"
+ ,org.apache.wicket.extensions.validation.validator;version="1.4.8",or
+ g.apache.wicket.extensions.markup.html.repeater.data.table;version="1
+ .4.8",org.apache.wicket.extensions.ajax.markup.html.modal;version="1.
+ 4.8"
+Bundle-Version: 1.4.8
+Bundle-Name: Wicket Extensions
+Bundle-Description: Wicket Extensions is a rich component library for 
+ the Wicket framework.
+Bundle-DocURL: http://apache.org
+Bundle-ManifestVersion: 2
+Bundle-Vendor: Apache Software Foundation
+Bundle-SymbolicName: org.apache.wicket.wicket-extensions
+Tool: Bnd-0.0.255
+DynamicImport-Package: *
+
